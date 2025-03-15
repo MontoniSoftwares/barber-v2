@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky && prisma generate"
+    "prepare": "husky && prisma generate",
+    "type": "module"
   },
   "prisma": {
     "seed": "ts-node prisma/seed.ts"
@@ -40,12 +41,13 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.21",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "git-commit-msg-linter": "^5.0.8",
     "husky": "^9.1.1",
     "lint-staged": "^15.2.7",
-    "postcss": "^8",
+    "postcss": "^8.5.3",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.5",
     "prisma": "^5.17.0",
